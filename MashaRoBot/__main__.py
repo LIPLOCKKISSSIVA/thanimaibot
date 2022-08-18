@@ -86,7 +86,7 @@ buttons = [
         InlineKeyboardButton(text="✨ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭✨", url="t.me/comrade_robotZ"),
     ],
     [
-        InlineKeyboardButton(text="🧟ASSISTANT🧟", url="t.me/lovely_prinz_music"
+        InlineKeyboardButton(text="🧟ASSISTANT🧟", url="t.me/raiza_wilson"
         ),
     ],
 ]
