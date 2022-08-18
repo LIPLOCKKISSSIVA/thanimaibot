@@ -60,7 +60,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """ 
-𝕙𝕖𝕪  𝕥𝕙𝕖𝕣𝕖!.
+HEY BABY[🖤](https://telegra.ph/file/9709624ca90cdce2f2fde.jpg)
 telegram Group management with lots of features.
 ───────────────────────
 × Uptime: 8days, 10h:36m:16s
@@ -73,20 +73,20 @@ telegram Group management with lots of features.
 buttons = [
     [
         InlineKeyboardButton(
-            text="Aᴅᴅ Mᴇ 🥰", url="t.me/FINAL_STRIKER_BOT?startgroup=true"),
+            text="Aᴅᴅ Mᴇ 🥰", url="t.me/raiza_wilson_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="Cᴏᴍᴍᴀɴᴅs ❔", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="Dᴇᴠʟᴏᴘᴇʀ🤓", url="https://t.me/TheTelegrampro"),
+        InlineKeyboardButton(text="Dᴇᴠʟᴏᴘᴇʀ🤓", url="https://t.me/official_baby1"),
     ],
     [
-        InlineKeyboardButton(text="❤️𝕭𝖔𝖙 𝖀𝖕𝖉𝖆𝖙𝖊$💙", url="t.me/Thanimaibots"),
-        InlineKeyboardButton(text="✨ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭✨", url="t.me/Thanimaisupport"),
+        InlineKeyboardButton(text="❤️𝕭𝖔𝖙 𝖀𝖕𝖉𝖆𝖙𝖊$💙", url="t.me/comrade_bots"),
+        InlineKeyboardButton(text="✨ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭✨", url="t.me/comrade_robotZ"),
     ],
     [
-        InlineKeyboardButton(text="⚠️𝗦𝗼𝘂𝗿𝗰𝗲⚠️🖥️", callback_data="source_"
+        InlineKeyboardButton(text="🧟ASSISTANT🧟", url="t.me/lovely_prinz_music"
         ),
     ],
 ]
@@ -101,7 +101,7 @@ Commands available:
 × /help: Give's you this message.
 All commands can either be used with / OR !."""
 
-START_IMG = "https://telegra.ph/file/91d3a167481da71ab5b44.mp4"
+START_IMG = "https://telegra.ph/file/ce3cd2f260dc20ef13c1b.jpg"
 MASHA_IMG = "https://telegra.ph/file/7aba4b67279c844454b4c.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
@@ -365,7 +365,7 @@ def Masha_about_callback(update, context):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *MASHA*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *BOBBY*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -373,8 +373,8 @@ def Masha_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_Masha's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/Mr-Dark-Prince/MashaRoBot).
-                 \n\nIf you have any question about Masha, let us know at @WasteBots.""",
+                 \nHere is the [💾Repository](https://github.com/love-u-bobby).
+                 \n\nIf you have any question about BOBBY, let us know at @comrade_bots.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -400,8 +400,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Lonely king*
-                 \nMy source code is private  [support](t.me/thanimaisupport) .""",
+            text=""" Hi..🤗 I'm *BOBBY*
+                 \nMy source code is private  [support](t.me/comrade_robotz) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
